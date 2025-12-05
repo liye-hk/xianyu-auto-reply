@@ -14,6 +14,8 @@ for directory in ["data", "logs", "backups", "static/uploads/images"]:
 
 # 导入并运行主程序
 from Start import main
+import uvicorn
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    # 直接用指定端口启动 uvicorn
+    uvicorn.run("reply_server:app", host="0.0.0.0", port=port, reload=False)
