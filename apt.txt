@@ -1,0 +1,13 @@
+chromium
+chromium-driver
+xvfb
+libx11-dev
+libxrender-dev
+libxext-dev
+fonts-dejavu
+libgl1-mesa-glx
+libgtk-3-0
+nodejs
+npm
+tzdata
+curl
